@@ -183,9 +183,6 @@ let follower = [
 ]
 
 
-let postLikes = posts['likes'];
-
-
 let newLike = Intl.NumberFormat('en-US');
 
 
@@ -211,7 +208,7 @@ function loadPage() {
 
 function loadStorys() {
     document.getElementById('storys').innerHTML = '';
-    for (i = 0; i < storyProfilPictures.length; i++) {
+    for (let i = 0; i < storyProfilPictures.length; i++) {
         const storyPicture = storyProfilPictures[i];
         const storyName = storyProfilNames[i];
 
@@ -242,7 +239,7 @@ function loadPosts() {
 function loadFollower() {
     document.getElementById('right-side-follower').innerHTML = '';
 
-    for (i = 0; i < follower.length; i++) {
+    for (let i = 0; i < follower.length; i++) {
         const follow = follower[i];
 
         document.getElementById('right-side-follower').innerHTML += followerTemplate(i);
@@ -342,7 +339,7 @@ function removeAndAddClassCloseOverlay() {
 function showComments(i) {
     document.getElementById(posts[i].commentsBigPictureId).innerHTML = '';
 
-    for (c = 0; c < posts[i].comments.length; c++) {
+    for (let c = 0; c < posts[i].comments.length; c++) {
         commentsTemplate(i, c);
     }
 }
