@@ -1,0 +1,327 @@
+@media (max-width: 1300px) {
+    .icons-header-container {
+        margin-right: 100px;
+    }
+
+    .picturegram-logo {
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .icons-header-container {
+        margin-right: 50px;
+    }
+
+    .picturegram-logo {
+        margin-left: 50px;
+    }
+
+    .picture-and-comment {
+        width: 80%;
+        height: 70%;
+    }
+
+    .all-comments {
+        min-height: 40%;
+    }
+
+    .picture-and-comment {
+        width: 88%;
+        height: 88%;
+    }
+
+    .close-icon-big {
+        top: 10px;
+        right: 10px;
+        height: 40px;
+        width: 40px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .icons-header-container {
+        margin-right: 10px;
+    }
+
+    .picturegram-logo {
+        margin-left: 10px;
+    }
+
+    .input-search-container {
+        margin-left: 90px;
+    }
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 55%;
+    }
+
+    .right-side {
+        display: none;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .input-search-container {
+        margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .input-search-container {
+        margin-left: 0px;
+    }
+
+    .picture-and-comment {
+        height: 75%;
+    }
+}
+
+
+@media (max-width: 730px) {
+    .input-search-container {
+        width: 30%;
+    }
+
+    .input-search-header {
+        width: 235px;
+    }
+}
+
+
+@media (max-width: 690px) {
+    .input-search-container {
+        display: none;
+    }
+
+    .picture-and-comment {
+        height: 70%;
+        width: 95%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .left-side {
+        width: 0;
+        flex: 1;
+    }
+    
+
+    .story-container {
+        width: 95%;
+        border: none;
+        border-bottom: 1px solid lightgrey;
+        border-radius: 0;
+        overflow-x: hidden;
+    }
+
+    .story-arrow-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 95%;
+    }
+
+    .arrow-right {
+        padding-left: 0px;
+    }
+
+    .all-posts-container {
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .post-container {
+        width: 100%;
+        border: none
+    }
+
+    .post-image {
+        width: 100%;
+    }
+
+    .post-time-container {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .comment-section {
+        border: none;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .picturegram-logo {
+        height: 30px;
+    }
+
+    .icons-header-container img {
+        height: 20px;
+    }
+
+    .story-container {
+        margin-top: 80px;
+        height: 80px;
+    }
+
+    .profil-picture-story {
+        height: 40px;
+        width: 40px;
+    }
+
+    .story-name {
+        font-size: 11px;
+    }
+
+    .arrow-right {
+        height: 25px;
+    }
+
+    .arrow-left {
+        height: 25px;
+    }
+
+    .little-profil-picture {
+        height: 36px;
+        width: 36px;
+    }
+
+    .name {
+        font-size: 13px;
+    }
+
+    .location {
+        font-size: 10px;
+    }
+
+    .option-icon {
+        height: 15px;
+        margin-right: 15px;
+    }
+
+    .icons-left img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .icon-right img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .likes {
+        font-size: 14px;
+    }
+
+    .post-description {
+        font-size: 13px;
+    }
+
+    .comments {
+        font-size: 13px;
+    }
+
+    .post-time {
+        font-size: 12px;
+    }
+
+    .smile-icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    .write-comment {
+        font-size: 12px;
+    }
+
+    .posten-button {
+        font-size: 12px;
+    }
+
+    .story-container {
+        width: 94%;
+    }
+
+
+    .picture-and-comment {
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+    }
+
+    .big-picture-container {
+        width: 80%;
+    }
+
+    .big-comment {
+        width: 80%;
+    }
+
+    .all-comments {
+        min-height: 0px;
+        max-height: 100px;
+    }
+
+    .comment-description {
+        font-size: 13px;
+    }
+
+    .trash-icon {
+        height: 13px;
+        width: 13px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .icons-header-container img {
+        margin: 0px 5px;
+    }
+
+    .story-container {
+        width: 93%;
+    }
+
+    .story-pic-name {
+        padding: 10px 4px;
+    }
+
+    .big-picture-container {
+        width: 95%;
+    }
+
+    .big-comment {
+        width: 95%;
+    }
+}
+
+
+@media (max-width: 310px) {
+    .header {
+        height: 60px;
+    }
+
+    .picturegram-logo {
+        height: 28px;
+    }
+
+    .icons-header-container img {
+        height: 17px;
+    }
+
+    .story-container {
+        width: 92%;
+    }
+}

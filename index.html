@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picturegram</title>
+    <link rel="icon" type="image/x-icon" href="img/icons/instagram-brands.svg">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="loadPage()">
+    <div id="overlay-whole-page" onclick="closeSearchFunction()" class="overlay-whole-page d-none"></div>
+
+    <div id="header" class="header">
+        <a class="picturegram-logo-a" href="index.html">
+            <img class="picturegram-logo" src="img/picturegram-logo.png" alt="Picturegram-logo">
+        </a>
+        <div class="input-search-container">
+            <img id="search-icon-header" class="search-icon" src="img/icons/magnifying-glass-solid.svg"
+                alt="magnifying-glass">
+            <input onclick="search()" id="input-search" class="input-search-header" placeholder="Suchen">
+            <img onclick="closeSearchFunction()" id="close-icon-header" class="close-icon d-none"
+                src="img/icons/circle-xmark-solid.svg" alt="circle-xmark">
+        </div>
+        <div class="icons-header-container">
+            <img src="img/icons/house-solid.svg" alt="house-icon">
+            <img src="img/icons/send_optimized.png" alt="send-icon">
+            <img src="img/icons/more_optimized.png" alt="more-icon">
+            <img src="img/icons/compass-solid.svg" alt="compass-icon">
+            <img src="img/icons/heart_optimized.png" alt="heart-icon">
+        </div>
+    </div>
+
+    <div class="content-page">
+        <div class="left-side">
+            <div id="storys" class="story-container">
+
+            </div>
+
+            <div id="all-posts" class="all-posts-container">
+
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="right-side-container">
+
+                <div class="right-side-my-profil">
+                    <div class="my-profil">
+                        <img class="my-profil-picture" src="img/profile-picture.png" alt="profile-picture">
+                        <div class="column">
+                            <span class="user-name">matthiasmulzet</span>
+                            <span class="real-name">Matthias Mulzet</span>
+                        </div>
+                    </div>
+                    <div class="change-container">
+                        <span class="change">Wechseln</span>
+                    </div>
+                </div>
+
+                <div class="suggestion-see-all">
+                    <span class="suggestion">Vorschläge für dich</span>
+                    <span class="see-all">Alle ansehen</span>
+                </div>
+
+                <div id="right-side-follower" class="right-side-all-follower">
+
+                </div>
+
+                <div class="footer">
+                    <div class="footer-first-line">
+                        <a href="#">Info</a> <p>·</p>
+                        <a href="#">Hilfe</a> <p>·</p>
+                        <a href="#">Presse</a> <p>·</p>
+                        <a href="#">API</a> <p>·</p>
+                        <a href="#">Jobs</a> <p>·</p>
+                        <a href="#">Datenrichtlinie</a> <p>·</p> <br>
+                    </div>
+
+                    <div class="footer-second-line">
+                        <a href="#">Nutzungsbedingungen</a> <p>·</p>
+                        <a href="impressum.html">Impressum</a> <p>·</p>
+                        <a href="icons.html">Icons</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
